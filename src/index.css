@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+::-webkit-scrollbar{
+  background-color: #dedede;
+  width: 10px;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:white ;
+  border-radius: 20px;
+}
+
 html{
   background-color: #ece6cc;
 }
@@ -32,6 +42,25 @@ html{
   outline: none;
   border: none;
 }
+.add_button{
+  background-color: #ffde66;
+  border-radius: 20px;
+  height: 30px;
+  width: 70px;
+  float: right;
+  cursor: pointer;
+  text-align: center;
+}
+.add_button a {
+  color: black;
+  font-size: 13px;
+  align-items: center;
+  text-decoration: none;
+  font-family:'Architects Daughter', cursive;
+}
+
+
+/* List */
 .list ul{
   margin:auto;
 }
@@ -43,6 +72,33 @@ html{
   border-radius: 10px;
   background-color: #dedede;
   margin-top: 10px;
-  
-  
+}
+.add_new{
+  display: block;
+  margin: 0 auto;
+  width:95%;
+  background-color: white;
+  border: none;
+  height: 85%;
+  outline: none;
+  border-radius: 20px;
+}
+.add_new_title{
+  font-size:larger;
+  display: block;
+  margin: 0 auto;
+  width:95%;
+  background-color: white;
+  border: none;
+  height: 10%;
+  outline: none;
+  border-radius: 20px;
+}
+.add_new input{
+  width: 10px;
+}
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
