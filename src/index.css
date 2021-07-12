@@ -23,6 +23,11 @@ html{
   border-radius: 20px;
   background-color: #f3f3f3;
 }
+.frame input{
+
+  margin-top:5vh;
+  margin-bottom: 10px;
+}
 .frame h2{
   font-family:'Architects Daughter', cursive;
   margin-top: 50px;
@@ -76,26 +81,18 @@ html{
 .add_new{
   display: block;
   margin: 0 auto;
-  width:95%;
+  width: 50px;
   background-color: white;
   border: none;
   height: 85%;
   outline: none;
   border-radius: 20px;
 }
-.add_new_title{
-  font-size:larger;
-  display: block;
-  margin: 0 auto;
-  width:95%;
-  background-color: white;
-  border: none;
-  height: 10%;
-  outline: none;
-  border-radius: 20px;
-}
-.add_new input{
-  width: 10px;
+
+.New_frame input{
+  margin-top: 60px;
+  width: 95%;
+  height: 600px;
 }
 button{
   border: none;
